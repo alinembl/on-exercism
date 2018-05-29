@@ -8,7 +8,7 @@ TwoFer.prototype.twoFer = function (who) {
   // use a conditional.
 
   if (who) {
-    return 'One for ' + who + ', one for me.';
+    return `One for ${who}, one for me.`;
   } else {
     return 'One for you, one for me.';
   }
